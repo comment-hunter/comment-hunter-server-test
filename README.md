@@ -11,12 +11,12 @@ npm install
 ```
 
 ## Usage
+To Start, run the free dyno web worker on the Heroku dashboard.
 
-* Set up the [Reddit Scraper prototype]().  
-* Create a new Heroku application.
-* Fork this repo and deploy to Heroku.
-* Use the same Heroku PostgreSQL database Add-on between Scraper and this app.
-* To Start, run the free dyno web worker.
+You can view logs with 
+```bash
+heroku logs -a <the-name-of-this-app-on-Heroku>
+```
 
 ## Tools
 
